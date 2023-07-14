@@ -30,6 +30,12 @@ h3 {
     color: white;
 }
 
+h4 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: black;
+}
+
 p {
     margin: 0;
 }
@@ -143,7 +149,6 @@ p {
 .content-desc2 {
     color: var(--text-300, #BABABA);
     font-size: 1.25rem;
-
 }
 
 .content-container {
@@ -199,13 +204,22 @@ p {
 
 .sec-content-section {
     background-image: url("/assets/contentbgblue.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .sec-content-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto auto;
     padding: 20vh 8vw;
+}
+
+.sec-content-wrapper-left {
+    display: flex;
+    flex-direction: row;
 }
 
 .sec-content-txt-wrapper {
@@ -215,8 +229,9 @@ p {
 
 .sec-content-card-wrapper {
     display: flex;
-    max-width: fit-content;
-    gap: 1.5rem;
+    justify-content: space-between;
+    gap: 3.75rem;
+    margin-left: 6rem;
 }
 
 .sec-content-desc {
@@ -239,6 +254,7 @@ p {
     flex-direction: column;
     border-radius: 1rem;
     max-width: 17rem;
+    height: 16.75rem;
     padding: 1rem;
 }
 
@@ -253,4 +269,165 @@ p {
     font-size: 1rem;
     color: #9E9D9F;
     padding-top: 1rem;
+}
+
+.sec-content-card-wrapper-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.80rem;
+    margin-top: 2.75rem;
+}
+
+.sec-content-btn-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    border-radius: 8px;
+    background: var(--primary-500, #4569FA);
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-content-btn-txt {
+    color: white;
+    font-size: 0.875rem;
+}
+
+.third-content-section {
+    background-color: #e7e7e7;
+}
+
+.third-content-container {
+    padding: 20vh 8vw;
+}
+
+.third-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-content-txt-wrapper {}
+
+.third-content-desc {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4569FA;
+    padding-bottom: 1rem;
+}
+
+.third-content-desc2 {
+    color: var(--text-300, #BABABA);
+    font-size: 1.25rem;
+    width: 60%;
+}
+
+.third-content-btn-txt-wrapper {
+    background: var(--primary-500, #4569FA);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+}
+
+.third-content-btn-txt {
+    font-size: 0.875rem;
+    color: white;
+}
+
+.third-content-swiper-wrapper {}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+}
+
+.myswiper-card {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.swiper-card-content-container {
+    width: 23.15rem;
+    height: 28.5rem;
+    background-color: white;
+    margin-top: 3.5rem;
+    border-radius: 0.5rem;
+}
+
+.swiper-card-content {
+    display: flex;
+    position: relative;
+}
+
+.swiper-card-content-img {
+    border-radius: 0.5rem;
+}
+
+.swiper-card-content-review {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 0.75rem;
+    right: 0.75rem;
+    background-color: white;
+    width: 8.2rem;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+}
+
+.star-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.separator {
+    width: 0.109rem;
+    height: 0.625rem;
+    background-color: #e7e7e7;
+}
+
+.ratting-style {
+    color: black;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.swiper-card-main-content-wrapper {
+    padding: 1rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.swiper-card-category {
+    border-radius: 8px;
+    background: rgba(252, 218, 215, 0.60);
+    max-width: fit-content;
+    padding: 0.5rem;
+}
+
+.swiper-card-category-txt-title {
+    color: var(--error-500, #F04438);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.h3-swiper {
+    color: black !important;
+    font-size: 1.5rem !important;
+}
+
+.swiper-card-main-content-desc-txt {
+    color: #707070;
+}
+
+.swiper-card-profile-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
