@@ -1,0 +1,256 @@
+* {
+    font-family: Steradian TRIAL Rg !important;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Steradian TRIAL Rg;
+    src: url(Steradian.otf);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 150%;
+    color: white;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #1c2a64 !important;
+    padding: 1% 5%;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    position: sticky;
+    z-index: 99999999999;
+}
+
+#navbarNav {
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    width: 50%;
+    margin: auto auto;
+    justify-content: space-between;
+}
+
+.container-fluid {
+    max-width: 1285px;
+}
+
+.active {
+    color: white !important;
+}
+
+.nav-link {
+    color: #bababa;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-text {
+    text-decoration: none;
+    color: white;
+    padding: 5px 18px;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin: 0 1rem;
+}
+
+.sign-up {
+    border: none;
+    background-color: #4569FA;
+}
+
+.hero-section {
+    background-image: url("assets/bg.png");
+    background-position: inherit;
+    position: relative;
+    padding: 22vh 8vw;
+    overflow: visible;
+}
+
+.hero-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 85%;
+    width: 48%;
+}
+
+.hero-txt-wrapper {
+    max-width: 45%;
+}
+
+.hero-desc {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 1.5rem;
+}
+
+.desc-wrapper {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.hero-btn {
+    display: inline-flex;
+    padding: 12px 48px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: var(--primary-500, #4569FA);
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: auto auto;
+}
+
+.content-section {
+    padding: 20vh 8vw;
+    background: #F4F7FA;
+}
+
+.content-desc {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4569FA;
+}
+
+.content-desc2 {
+    color: var(--text-300, #BABABA);
+    font-size: 1.25rem;
+
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title-wrapper {
+    margin-top: 0.75rem;
+}
+
+.content-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0F3FA;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.content-card {
+    display: flex;
+    background-color: white;
+    padding: 1.5rem;
+    width: 24rem;
+    border-radius: 1rem;
+}
+
+.card-text-wrapper {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.5rem;
+
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--primary-800, #1C2A64);
+}
+
+.sec-content-section {
+    background-image: url("/assets/contentbgblue.png");
+}
+
+.sec-content-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+    padding: 20vh 8vw;
+}
+
+.sec-content-txt-wrapper {
+    max-width: 45%;
+    padding-bottom: 2.25rem;
+}
+
+.sec-content-card-wrapper {
+    display: flex;
+    max-width: fit-content;
+    gap: 1.5rem;
+}
+
+.sec-content-desc {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4569FA;
+    padding-bottom: 1rem;
+}
+
+.sec-content-desc2 {
+    color: var(--text-300, #BABABA);
+    font-size: 1.25rem;
+    margin-top: 1rem;
+
+}
+
+.sec-content-card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    max-width: 17rem;
+    padding: 1rem;
+}
+
+.sec-card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #383838;
+    padding-top: 1.5rem;
+}
+
+.sec-card-desc {
+    font-size: 1rem;
+    color: #9E9D9F;
+    padding-top: 1rem;
+}
